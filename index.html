@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag & Drop | Проект 2</title>
+  </head>
+  <body>
+
+    <div id="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="header__top">
+            <nav class="header__list">
+              <div class="header__menu">
+                <li>
+                  <a href="#Corner" class="header__link">Corner</a>
+                  <a href="#Home" class="header__link">Home</a>
+                  <a href="#" class="header__link">Contact</a>
+                  <a href="#" class="header__link">FAQ</a>
+                </li>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+        <div>
+          <div class="row">
+              <div class="col-header start">Начать</div>
+              <div class="col-header progress">В процессе</div>
+              <div class="col-header done">Готовы</div>
+          </div>
+
+          <div class="row">
+            <div class="placeholder">
+              <div class="item" draggable="true">Перетащи меня</div>
+              
+            </div>
+            <div class="placeholder"></div>
+            <div class="placeholder"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <script src="Drag&Drop_script.js"></script>
+  </body>
+</html>
